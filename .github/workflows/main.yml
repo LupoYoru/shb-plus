@@ -3,7 +3,7 @@ name: Release Creation
 on:
   push:
     branches:
-      - master
+      - main
     paths-ignore:
       - "**.md"
       - "**.yml"
@@ -39,7 +39,7 @@ jobs:
       - name: Create Release
         id: create_latest_release
         uses: ncipollo/release-action@v1
-        if: endsWith(github.ref, 'master') # Only update the latest release when pushing to the master branch
+        if: endsWith(github.ref, 'main') # Only update the latest release when pushing to the main branch
         with:
           allowUpdates: true
           name: Latest
