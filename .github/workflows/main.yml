@@ -54,4 +54,3 @@ jobs:
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: Push To Deploy
-          token: ${{ secrets.GITHUB_TOKEN }}
