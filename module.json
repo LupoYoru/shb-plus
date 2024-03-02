@@ -3,11 +3,11 @@
   "title": "DnD5e Spielerhandbuch Plus",
   "description": "Enthält das Kompendium des DnD 5. Edition Spielerhandbuchs, Erweiterungen und Homebrew-Inhalte.",
   "author": "LupoYoru",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "compatibility": {
     "minimum": "10",
     "verified": "11",
-    "maximum": "11"
+    "maximum": "12"
 	},
   "relationships": {
     "systems": [
@@ -19,8 +19,15 @@
           "verified": "3.0.3"
         }
       }
-    ]
+    ],
+	"requires": [
+      {
+        "id": "FoundryVTT-dnd5e-DE",
+        "type": "module",
+        "compatibility": {}
+      }
   },
+  "url": "https://github.com/LupoYoru/shb-plus/",
   "download": "https://github.com/LupoYoru/shb-plus/releases/latest/shb-plus.zip",
   "manifest": "https://github.com/LupoYoru/shb-plus/master/module.json",
   "packs": [
