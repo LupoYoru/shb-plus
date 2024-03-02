@@ -28,9 +28,8 @@
         }
 	  ]
     },
-  "url": "https://github.com/LupoYoru/shb-plus/",
-  "download": "https://github.com/LupoYoru/shb-plus/releases/latest/shb-plus.zip",
-  "manifest": "https://github.com/LupoYoru/shb-plus/master/module.json",
+  "download": "https://github.com/LupoYoru/shb-plus/releases/download/latest/module.zip",
+  "manifest": "https://github.com/LupoYoru/shb-plus/releases/download/latest/module.json",
   "packs": [
     {
       "name": "1-volker",
