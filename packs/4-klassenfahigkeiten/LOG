@@ -1,15 +1,8 @@
-2024/03/02-18:28:22.140135 f4a32d08 Recovering log #226
-2024/03/02-18:28:22.153636 f4a32d08 Delete type=3 #224
-2024/03/02-18:28:22.153771 f4a32d08 Delete type=0 #226
-2024/03/02-23:16:36.027623 f25c2d08 Level-0 table #231: started
-2024/03/02-23:16:36.032511 f25c2d08 Level-0 table #231: 1892 bytes OK
-2024/03/02-23:16:36.038247 f25c2d08 Delete type=0 #229
-2024/03/02-23:16:36.038835 f25c2d08 Manual compaction at level-0 from '!folders!0HmCjnqW7IeQle9P' @ 72057594037927935 : 1 .. '!items.effects!vQWGn4AmVsK9C1GX.B5KM6oYsKC7vRMgG' @ 0 : 0; will stop at (end)
-2024/03/02-23:16:36.067669 f25c2d08 Manual compaction at level-1 from '!folders!0HmCjnqW7IeQle9P' @ 72057594037927935 : 1 .. '!items.effects!vQWGn4AmVsK9C1GX.B5KM6oYsKC7vRMgG' @ 0 : 0; will stop at '!folders!wnLHo0b4xgaeUFsH' @ 2332 : 1
-2024/03/02-23:16:36.067709 f25c2d08 Compacting 1@1 + 1@2 files
-2024/03/02-23:16:36.125845 f25c2d08 Generated table #232@1: 512 keys, 564495 bytes
-2024/03/02-23:16:36.125917 f25c2d08 Compacted 1@1 + 1@2 files => 564495 bytes
-2024/03/02-23:16:36.131463 f25c2d08 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/03/02-23:16:36.131623 f25c2d08 Delete type=2 #231
-2024/03/02-23:16:36.131828 f25c2d08 Delete type=2 #223
-2024/03/02-23:16:36.138334 f25c2d08 Manual compaction at level-1 from '!folders!wnLHo0b4xgaeUFsH' @ 2332 : 1 .. '!items.effects!vQWGn4AmVsK9C1GX.B5KM6oYsKC7vRMgG' @ 0 : 0; will stop at (end)
+2024/03/02-23:23:35.260524 f4a32d08 Recovering log #230
+2024/03/02-23:23:35.273262 f4a32d08 Delete type=3 #228
+2024/03/02-23:23:35.273388 f4a32d08 Delete type=0 #230
+2024/03/03-16:48:13.161947 f25c2d08 Level-0 table #236: started
+2024/03/03-16:48:13.162298 f25c2d08 Level-0 table #236: 0 bytes OK
+2024/03/03-16:48:13.168259 f25c2d08 Delete type=0 #234
+2024/03/03-16:48:13.194039 f25c2d08 Manual compaction at level-0 from '!folders!0HmCjnqW7IeQle9P' @ 72057594037927935 : 1 .. '!items.effects!vQWGn4AmVsK9C1GX.B5KM6oYsKC7vRMgG' @ 0 : 0; will stop at (end)
+2024/03/03-16:48:13.194209 f25c2d08 Manual compaction at level-1 from '!folders!0HmCjnqW7IeQle9P' @ 72057594037927935 : 1 .. '!items.effects!vQWGn4AmVsK9C1GX.B5KM6oYsKC7vRMgG' @ 0 : 0; will stop at (end)
