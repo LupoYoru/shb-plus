@@ -1,282 +1,295 @@
 {
-  "id": "dnd5e-spielerhandbuch-plus",
-  "title": "DnD5e Spielerhandbuch Plus",
-  "description": "Enthält das Kompendium des DnD 5. Edition Spielerhandbuchs, Erweiterungen und Homebrew-Inhalte.",
-  "author": "LupoYoru",
-  "version": "0.5.4",
-  "compatibility": {
-    "minimum": "10",
-    "verified": "11",
-    "maximum": "12"
-	},
-  "relationships": {
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "compatibility": {
-          "minimum": "3.0.0",
-          "verified": "3.0.3"
-          }
-        }
-      ],
-	"requires": [
-      {
-        "id": "FoundryVTT-dnd5e-DE",
-        "type": "module",
-        "compatibility": {}
-        }
-	  ]
+    "id": "dnd5e-spielerhandbuch-plus",
+    "title": "DnD5e Spielerhandbuch Plus",
+    "description": "Enthält das Kompendium des DnD 5. Edition Spielerhandbuchs, Erweiterungen und Homebrew-Inhalte.",
+    "author": "LupoYoru",
+    "version": "0.5.5",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "11",
+        "maximum": "12"
     },
-  "download": "https://github.com/LupoYoru/shb-plus/releases/download/latest/module.zip",
-  "manifest": "https://github.com/LupoYoru/shb-plus/releases/download/latest/module.json",
-  "packs": [
-    {
-      "name": "1-volker",
-      "label": "[1] Völker",
-      "system": "dnd5e",
-      "path": "packs/1-volker",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "3.0.0",
+                    "verified": "3.0.3"
+                }
+            }
+        ],
+        "requires": [
+            {
+                "id": "FoundryVTT-dnd5e-DE",
+                "type": "module",
+                "compatibility": {}
+            }
+        ]
     },
-    {
-      "name": "2-klassen",
-      "label": "[2] Klassen",
-      "system": "dnd5e",
-      "path": "packs/2-klassen",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "3-unterklassen",
-      "label": "[3] Unterklassen",
-      "system": "dnd5e",
-      "path": "packs/3-unterklassen",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "4-klassenfahigkeiten",
-      "label": "[4] Klassenfähigkeiten",
-      "system": "dnd5e",
-      "path": "packs/4-klassenfahigkeiten",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "5-hintergrunde",
-      "label": "[5] Hintergründe",
-      "system": "dnd5e",
-      "path": "packs/5-hintergrunde",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "6-talente",
-      "label": "[6] Talente",
-      "system": "dnd5e",
-      "path": "packs/6-talente",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "gegenstande",
-      "label": "Gegenstände",
-      "system": "dnd5e",
-      "path": "packs/gegenstande",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "handelsguter",
-      "label": "Handelsgüter (SRD)",
-      "system": "dnd5e",
-      "path": "packs/handelsguter",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "zauber",
-      "label": "Zauber",
-      "system": "dnd5e",
-      "path": "packs/zauber",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "kreaturen",
-      "label": "Kreaturen (DDB)",
-      "system": "dnd5e",
-      "path": "packs/kreaturen",
-      "type": "Actor",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "kreaturenfahigkeiten",
-      "label": "Kreaturenfähigkeiten (DDB)",
-      "system": "dnd5e",
-      "path": "packs/kreaturenfahigkeiten",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "wurfeltabellen",
-      "label": "Würfeltabellen",
-      "system": "dnd5e",
-      "path": "packs/wurfeltabellen",
-      "type": "RollTable",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "wurfeltabellen-ddb",
-      "label": "Würfeltabellen (DDB)",
-      "system": "dnd5e",
-      "path": "packs/wurfeltabellen-ddb",
-      "type": "RollTable",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "wurfeltabellen-srd",
-      "label": "Würfeltabellen (SRD)",
-      "system": "dnd5e",
-      "path": "packs/wurfeltabellen-srd",
-      "type": "RollTable",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "spielerhandbuch",
-      "label": "Spielerhandbuch",
-      "system": "dnd5e",
-      "path": "packs/spielerhandbuch",
-      "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },	
-    {
-      "name": "vorgefertigte-helden",
-      "label": "Vorgefertigte Helden",
-      "system": "dnd5e",
-      "path": "packs/vorgefertigte-helden",
-      "type": "Actor",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    }
-  ],
-  "packFolders": [
-    {
-      "name": "DnD 5e Spielerhandbuch Plus",
-      "sorting": "m",
-      "color": "#2db92d",
-      "packs": [
-        "spielerhandbuch",
-        "vorgefertigte-helden"
-      ],
-      "folders": [
+    "download": "https://github.com/LupoYoru/shb-plus/releases/download/0.5.4/module.zip",
+    "manifest": "https://github.com/LupoYoru/shb-plus/releases/download/latest/module.json",
+    "packs": [
         {
-          "name": "[1] Charaktere",
-          "sorting": "m",
-          "color": "#228b22",
-          "packs": [
-            "1-volker",
-            "2-klassen",
-            "3-unterklassen",
-            "4-klassenfahigkeiten",
-            "5-hintergrunde",
-			"6-talente"
-          ]
-        },
-		{
-          "name": "[2] Gegenstände & Zauber",
-          "sorting": "m",
-          "color": "#196719",
-          "packs": [
-            "gegenstande",
-            "handelsguter",
-            "zauber"
-          ]
+            "name": "1-volker",
+            "label": "[1] Völker",
+            "system": "dnd5e",
+            "path": "packs/1-volker",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
         },
         {
-          "name": "[3] Kreaturen",
-          "sorting": "m",
-          "color": "#0f3e0f",
-          "packs": [
-            "kreaturen",
-            "kreaturenfahigkeiten"
-          ]
+            "name": "2-klassen",
+            "label": "[2] Klassen",
+            "system": "dnd5e",
+            "path": "packs/2-klassen",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
         },
         {
-          "name": "[4] Würfeltabellen",
-          "sorting": "m",
-          "color": "#0f3e0f",
-          "packs": [
-            "wurfeltabellen",
-			"wurfeltabellen-ddb",
-            "wurfeltabellen-srd"
-          ]
+            "name": "3-unterklassen",
+            "label": "[3] Unterklassen",
+            "system": "dnd5e",
+            "path": "packs/3-unterklassen",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "4-klassenfahigkeiten",
+            "label": "[4] Klassenfähigkeiten",
+            "system": "dnd5e",
+            "path": "packs/4-klassenfahigkeiten",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "5-hintergrunde",
+            "label": "[5] Hintergründe",
+            "system": "dnd5e",
+            "path": "packs/5-hintergrunde",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "6-talente",
+            "label": "[6] Talente",
+            "system": "dnd5e",
+            "path": "packs/6-talente",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "gegenstande",
+            "label": "Gegenstände",
+            "system": "dnd5e",
+            "path": "packs/gegenstande",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "handelsguter",
+            "label": "Handelsgüter (SRD)",
+            "system": "dnd5e",
+            "path": "packs/handelsguter",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "zauber",
+            "label": "Zauber",
+            "system": "dnd5e",
+            "path": "packs/zauber",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "kreaturen",
+            "label": "Kreaturen (DDB)",
+            "system": "dnd5e",
+            "path": "packs/kreaturen",
+            "type": "Actor",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "kreaturenfahigkeiten",
+            "label": "Kreaturenfähigkeiten (DDB)",
+            "system": "dnd5e",
+            "path": "packs/kreaturenfahigkeiten",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "wurfeltabellen",
+            "label": "Würfeltabellen",
+            "system": "dnd5e",
+            "path": "packs/wurfeltabellen",
+            "type": "RollTable",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "makros",
+            "label": "Makros",
+            "system": "dnd5e",
+            "path": "packs/makros",
+            "type": "Macro",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "wurfeltabellen-ddb",
+            "label": "Würfeltabellen (DDB)",
+            "system": "dnd5e",
+            "path": "packs/wurfeltabellen-ddb",
+            "type": "RollTable",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "wurfeltabellen-srd",
+            "label": "Würfeltabellen (SRD)",
+            "system": "dnd5e",
+            "path": "packs/wurfeltabellen-srd",
+            "type": "RollTable",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "spielerhandbuch",
+            "label": "Spielerhandbuch",
+            "system": "dnd5e",
+            "path": "packs/spielerhandbuch",
+            "type": "JournalEntry",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "vorgefertigte-helden",
+            "label": "Vorgefertigte Helden",
+            "system": "dnd5e",
+            "path": "packs/vorgefertigte-helden",
+            "type": "Actor",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
         }
-      ]
-    }
-  ]
+    ],
+    "packFolders": [
+        {
+            "name": "DnD 5e Spielerhandbuch Plus",
+            "sorting": "m",
+            "color": "#2db92d",
+            "packs": [
+                "spielerhandbuch",
+                "vorgefertigte-helden"
+            ],
+            "folders": [
+                {
+                    "name": "[1] Charaktere",
+                    "sorting": "m",
+                    "color": "#228b22",
+                    "packs": [
+                        "1-volker",
+                        "2-klassen",
+                        "3-unterklassen",
+                        "4-klassenfahigkeiten",
+                        "5-hintergrunde",
+                        "6-talente"
+                    ]
+                },
+                {
+                    "name": "[2] Gegenstände & Zauber",
+                    "sorting": "m",
+                    "color": "#196719",
+                    "packs": [
+                        "gegenstande",
+                        "handelsguter",
+                        "zauber"
+                    ]
+                },
+                {
+                    "name": "[3] Kreaturen",
+                    "sorting": "m",
+                    "color": "#0f3e0f",
+                    "packs": [
+                        "kreaturen",
+                        "kreaturenfahigkeiten"
+                    ]
+                },
+                {
+                    "name": "[4] Würfeltabellen & Makros",
+                    "sorting": "m",
+                    "color": "#0f3e0f",
+                    "packs": [
+                        "wurfeltabellen",
+						"makros",
+                        "wurfeltabellen-ddb",
+                        "wurfeltabellen-srd"
+                    ]
+                }
+            ]
+        }
+    ]
 }
