@@ -3,7 +3,7 @@
     "title": "DnD5e Spielerhandbuch Plus",
     "description": "Enthält das Kompendium des DnD 5. Edition Spielerhandbuchs, Erweiterungen und Homebrew-Inhalte.",
     "author": "LupoYoru",
-    "version": "0.5.6",
+    "version": "0.5.7",
     "compatibility": {
         "minimum": "10",
         "verified": "11",
@@ -176,18 +176,6 @@
             "flags": {}
         },
         {
-            "name": "makros",
-            "label": "Makros",
-            "system": "dnd5e",
-            "path": "packs/makros",
-            "type": "Macro",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "flags": {}
-        },
-        {
             "name": "wurfeltabellen-ddb",
             "label": "Würfeltabellen (DDB)",
             "system": "dnd5e",
@@ -284,7 +272,6 @@
                     "color": "#0f3e0f",
                     "packs": [
                         "wurfeltabellen",
-						"makros",
                         "wurfeltabellen-ddb",
                         "wurfeltabellen-srd"
                     ]

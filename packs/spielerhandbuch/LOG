@@ -1,8 +1,15 @@
-2024/03/13-21:09:20.693189 7f2805921b38 Recovering log #211
-2024/03/13-21:09:20.705337 7f2805921b38 Delete type=0 #211
-2024/03/13-21:09:20.705397 7f2805921b38 Delete type=3 #209
-2024/03/13-21:09:43.537126 7f2582d00b38 Level-0 table #217: started
-2024/03/13-21:09:43.537163 7f2582d00b38 Level-0 table #217: 0 bytes OK
-2024/03/13-21:09:43.542880 7f2582d00b38 Delete type=0 #215
-2024/03/13-21:09:43.543195 7f2582d00b38 Manual compaction at level-0 from '!journal!7KwYMpbHa1pwfMeu' @ 72057594037927935 : 1 .. '!journal.pages!xdbaPCfSygptKbmq.yVqbymOnzqVrD4Hr' @ 0 : 0; will stop at (end)
-2024/03/13-21:09:43.543277 7f2582d00b38 Manual compaction at level-1 from '!journal!7KwYMpbHa1pwfMeu' @ 72057594037927935 : 1 .. '!journal.pages!xdbaPCfSygptKbmq.yVqbymOnzqVrD4Hr' @ 0 : 0; will stop at (end)
+2024/03/16-19:13:28.049106 7f8c676bcb38 Recovering log #229
+2024/03/16-19:13:28.063135 7f8c676bcb38 Delete type=0 #229
+2024/03/16-19:13:28.063266 7f8c676bcb38 Delete type=3 #227
+2024/03/16-22:27:38.099588 7f89e4fd3b38 Level-0 table #234: started
+2024/03/16-22:27:38.124531 7f89e4fd3b38 Level-0 table #234: 620023 bytes OK
+2024/03/16-22:27:38.130235 7f89e4fd3b38 Delete type=0 #232
+2024/03/16-22:27:38.135793 7f89e4fd3b38 Manual compaction at level-0 from '!folders!fFGCFAOmkUkJM8t1' @ 72057594037927935 : 1 .. '!journal.pages!xdbaPCfSygptKbmq.yVqbymOnzqVrD4Hr' @ 0 : 0; will stop at (end)
+2024/03/16-22:27:38.135863 7f89e4fd3b38 Manual compaction at level-1 from '!folders!fFGCFAOmkUkJM8t1' @ 72057594037927935 : 1 .. '!journal.pages!xdbaPCfSygptKbmq.yVqbymOnzqVrD4Hr' @ 0 : 0; will stop at '!journal.pages!xdbaPCfSygptKbmq.rRuideKY6sOYVO5T' @ 5801 : 1
+2024/03/16-22:27:38.135874 7f89e4fd3b38 Compacting 1@1 + 1@2 files
+2024/03/16-22:27:38.147912 7f89e4fd3b38 Generated table #235@1: 54 keys, 220906 bytes
+2024/03/16-22:27:38.147947 7f89e4fd3b38 Compacted 1@1 + 1@2 files => 220906 bytes
+2024/03/16-22:27:38.152817 7f89e4fd3b38 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/03/16-22:27:38.152947 7f89e4fd3b38 Delete type=2 #234
+2024/03/16-22:27:38.153206 7f89e4fd3b38 Delete type=2 #222
+2024/03/16-22:27:38.153345 7f89e4fd3b38 Manual compaction at level-1 from '!journal.pages!xdbaPCfSygptKbmq.rRuideKY6sOYVO5T' @ 5801 : 1 .. '!journal.pages!xdbaPCfSygptKbmq.yVqbymOnzqVrD4Hr' @ 0 : 0; will stop at (end)
