@@ -3,7 +3,7 @@
     "title": "DnD5e Spielerhandbuch Plus",
     "description": "Enthält das Kompendium des DnD 5. Edition Spielerhandbuchs, Erweiterungen und Homebrew-Inhalte.",
     "author": "LupoYoru",
-    "version": "0.6.5",
+    "version": "0.6.6",
     "compatibility": {
         "minimum": "10",
         "verified": "11",
