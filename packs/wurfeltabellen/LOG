@@ -1,8 +1,15 @@
-2024/05/01-18:32:30.865656 7f8c67ebfb38 Recovering log #191
-2024/05/01-18:32:30.876605 7f8c67ebfb38 Delete type=3 #189
-2024/05/01-18:32:30.876662 7f8c67ebfb38 Delete type=0 #191
-2024/05/01-18:37:56.648009 7f89e4fd3b38 Level-0 table #196: started
-2024/05/01-18:37:56.648045 7f89e4fd3b38 Level-0 table #196: 0 bytes OK
-2024/05/01-18:37:56.652866 7f89e4fd3b38 Delete type=0 #194
-2024/05/01-18:37:56.658464 7f89e4fd3b38 Manual compaction at level-0 from '!tables!lQCuUNbotof5wgxq' @ 72057594037927935 : 1 .. '!tables.results!lQCuUNbotof5wgxq.y0uOa4eU4A910Kmq' @ 0 : 0; will stop at (end)
-2024/05/01-18:37:56.668805 7f89e4fd3b38 Manual compaction at level-1 from '!tables!lQCuUNbotof5wgxq' @ 72057594037927935 : 1 .. '!tables.results!lQCuUNbotof5wgxq.y0uOa4eU4A910Kmq' @ 0 : 0; will stop at (end)
+2024/05/14-19:03:51.470179 7f8c67ebfb38 Recovering log #211
+2024/05/14-19:03:51.481741 7f8c67ebfb38 Delete type=0 #211
+2024/05/14-19:03:51.481782 7f8c67ebfb38 Delete type=3 #209
+2024/05/14-20:14:58.121300 7f89e4fd3b38 Level-0 table #216: started
+2024/05/14-20:14:58.130945 7f89e4fd3b38 Level-0 table #216: 48312 bytes OK
+2024/05/14-20:14:58.135838 7f89e4fd3b38 Delete type=0 #214
+2024/05/14-20:14:58.157862 7f89e4fd3b38 Manual compaction at level-0 from '!tables!QAHjrrwRrgjSjaIH' @ 72057594037927935 : 1 .. '!tables.results!lQCuUNbotof5wgxq.y0uOa4eU4A910Kmq' @ 0 : 0; will stop at (end)
+2024/05/14-20:14:58.157983 7f89e4fd3b38 Manual compaction at level-1 from '!tables!QAHjrrwRrgjSjaIH' @ 72057594037927935 : 1 .. '!tables.results!lQCuUNbotof5wgxq.y0uOa4eU4A910Kmq' @ 0 : 0; will stop at '!tables.results!QAHjrrwRrgjSjaIH.u3jjMUZE1qlXLsZx' @ 5041 : 1
+2024/05/14-20:14:58.157997 7f89e4fd3b38 Compacting 1@1 + 1@2 files
+2024/05/14-20:14:58.162854 7f89e4fd3b38 Generated table #217@1: 59 keys, 11374 bytes
+2024/05/14-20:14:58.162875 7f89e4fd3b38 Compacted 1@1 + 1@2 files => 11374 bytes
+2024/05/14-20:14:58.182747 7f89e4fd3b38 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/14-20:14:58.182903 7f89e4fd3b38 Delete type=2 #216
+2024/05/14-20:14:58.183024 7f89e4fd3b38 Delete type=2 #88
+2024/05/14-20:14:58.194412 7f89e4fd3b38 Manual compaction at level-1 from '!tables.results!QAHjrrwRrgjSjaIH.u3jjMUZE1qlXLsZx' @ 5041 : 1 .. '!tables.results!lQCuUNbotof5wgxq.y0uOa4eU4A910Kmq' @ 0 : 0; will stop at (end)
