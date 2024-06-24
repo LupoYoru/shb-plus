@@ -1,8 +1,15 @@
-2024/06/16-19:31:17.345759 7fd9e4577b38 Recovering log #507
-2024/06/16-19:31:17.358667 7fd9e4577b38 Delete type=0 #507
-2024/06/16-19:31:17.358726 7fd9e4577b38 Delete type=3 #505
-2024/06/16-20:30:38.107369 7fd761b3fb38 Level-0 table #512: started
-2024/06/16-20:30:38.107410 7fd761b3fb38 Level-0 table #512: 0 bytes OK
-2024/06/16-20:30:38.113112 7fd761b3fb38 Delete type=0 #510
-2024/06/16-20:30:38.124243 7fd761b3fb38 Manual compaction at level-0 from '!folders!0Vqg6n9saGeWviFM' @ 72057594037927935 : 1 .. '!items.effects!vQWGn4AmVsK9C1GX.B5KM6oYsKC7vRMgG' @ 0 : 0; will stop at (end)
-2024/06/16-20:30:38.130494 7fd761b3fb38 Manual compaction at level-1 from '!folders!0Vqg6n9saGeWviFM' @ 72057594037927935 : 1 .. '!items.effects!vQWGn4AmVsK9C1GX.B5KM6oYsKC7vRMgG' @ 0 : 0; will stop at (end)
+2024/06/24-19:04:34.567767 7f4782714b38 Recovering log #527
+2024/06/24-19:04:34.579147 7f4782714b38 Delete type=3 #525
+2024/06/24-19:04:34.579216 7f4782714b38 Delete type=0 #527
+2024/06/24-19:22:30.411871 7f427dcd5b38 Level-0 table #533: started
+2024/06/24-19:22:30.418198 7f427dcd5b38 Level-0 table #533: 44747 bytes OK
+2024/06/24-19:22:30.423399 7f427dcd5b38 Delete type=0 #531
+2024/06/24-19:22:30.423705 7f427dcd5b38 Manual compaction at level-0 from '!folders!0Vqg6n9saGeWviFM' @ 72057594037927935 : 1 .. '!items.effects!vQWGn4AmVsK9C1GX.B5KM6oYsKC7vRMgG' @ 0 : 0; will stop at (end)
+2024/06/24-19:22:30.438885 7f427dcd5b38 Manual compaction at level-1 from '!folders!0Vqg6n9saGeWviFM' @ 72057594037927935 : 1 .. '!items.effects!vQWGn4AmVsK9C1GX.B5KM6oYsKC7vRMgG' @ 0 : 0; will stop at '!items!yJ3PUYriGbMresJj' @ 4787 : 1
+2024/06/24-19:22:30.438901 7f427dcd5b38 Compacting 1@1 + 1@2 files
+2024/06/24-19:22:30.473494 7f427dcd5b38 Generated table #534@1: 553 keys, 719301 bytes
+2024/06/24-19:22:30.473522 7f427dcd5b38 Compacted 1@1 + 1@2 files => 719301 bytes
+2024/06/24-19:22:30.478323 7f427dcd5b38 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/06/24-19:22:30.478420 7f427dcd5b38 Delete type=2 #533
+2024/06/24-19:22:30.478584 7f427dcd5b38 Delete type=2 #529
+2024/06/24-19:22:30.489187 7f427dcd5b38 Manual compaction at level-1 from '!items!yJ3PUYriGbMresJj' @ 4787 : 1 .. '!items.effects!vQWGn4AmVsK9C1GX.B5KM6oYsKC7vRMgG' @ 0 : 0; will stop at (end)
