@@ -26,7 +26,7 @@ jobs:
           files: "module.json"
         env:
           download: https://github.com/${{github.repository}}/releases/download/${{steps.get-version.outputs.version}}/module.zip
-      - run: zip -r ./module.zip module.json images/ packs/ # Add folders/files here
+      - run: zip -r ./module.zip module.json data/ images/ packs/ # Add folders/files here
       - name: Create Release # Create an additional release for this version
         id: create_versioned_release
         uses: ncipollo/release-action@v1
