@@ -2,7 +2,7 @@
     "id": "dnd5e-spielerhandbuch-plus",
     "title": "DnD5e Spielerhandbuch Plus",
     "description": "Enthält das Kompendium des DnD 5. Edition Spielerhandbuchs, Erweiterungen und Homebrew-Inhalte.",
-    "version": "0.7.2-1",
+    "version": "0.8.0",
     "compatibility": {
         "minimum": "10",
         "verified": "12",
