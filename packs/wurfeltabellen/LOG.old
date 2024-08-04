@@ -1,8 +1,15 @@
-2024/08/02-20:04:59.362896 7f412487eb38 Recovering log #434
-2024/08/02-20:04:59.375803 7f412487eb38 Delete type=3 #432
-2024/08/02-20:04:59.375957 7f412487eb38 Delete type=0 #434
-2024/08/02-20:19:33.145534 7f3c1fbb2b38 Level-0 table #439: started
-2024/08/02-20:19:33.145615 7f3c1fbb2b38 Level-0 table #439: 0 bytes OK
-2024/08/02-20:19:33.150751 7f3c1fbb2b38 Delete type=0 #437
-2024/08/02-20:19:33.156582 7f3c1fbb2b38 Manual compaction at level-0 from '!folders!3LTXmlTwNgoJGrPL' @ 72057594037927935 : 1 .. '!tables.results!lQCuUNbotof5wgxq.y0uOa4eU4A910Kmq' @ 0 : 0; will stop at (end)
-2024/08/02-20:19:33.156787 7f3c1fbb2b38 Manual compaction at level-1 from '!folders!3LTXmlTwNgoJGrPL' @ 72057594037927935 : 1 .. '!tables.results!lQCuUNbotof5wgxq.y0uOa4eU4A910Kmq' @ 0 : 0; will stop at (end)
+2024/08/02-20:39:37.809715 7f9749f71b38 Recovering log #438
+2024/08/02-20:39:37.824221 7f9749f71b38 Delete type=3 #436
+2024/08/02-20:39:37.824400 7f9749f71b38 Delete type=0 #438
+2024/08/02-20:43:03.247316 7f92473feb38 Level-0 table #443: started
+2024/08/02-20:43:03.253771 7f92473feb38 Level-0 table #443: 16011 bytes OK
+2024/08/02-20:43:03.259268 7f92473feb38 Delete type=0 #441
+2024/08/02-20:43:03.265400 7f92473feb38 Manual compaction at level-0 from '!folders!3LTXmlTwNgoJGrPL' @ 72057594037927935 : 1 .. '!tables.results!lQCuUNbotof5wgxq.y0uOa4eU4A910Kmq' @ 0 : 0; will stop at (end)
+2024/08/02-20:43:03.265663 7f92473feb38 Manual compaction at level-1 from '!folders!3LTXmlTwNgoJGrPL' @ 72057594037927935 : 1 .. '!tables.results!lQCuUNbotof5wgxq.y0uOa4eU4A910Kmq' @ 0 : 0; will stop at '!tables.results!6enFwcMJLRQnRLeh.yJfyXOuR1UlcJ5lH' @ 20088 : 1
+2024/08/02-20:43:03.265704 7f92473feb38 Compacting 1@1 + 1@2 files
+2024/08/02-20:43:03.277595 7f92473feb38 Generated table #444@1: 283 keys, 49945 bytes
+2024/08/02-20:43:03.277651 7f92473feb38 Compacted 1@1 + 1@2 files => 49945 bytes
+2024/08/02-20:43:03.282906 7f92473feb38 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/08/02-20:43:03.283254 7f92473feb38 Delete type=2 #403
+2024/08/02-20:43:03.283521 7f92473feb38 Delete type=2 #443
+2024/08/02-20:43:03.296371 7f92473feb38 Manual compaction at level-1 from '!tables.results!6enFwcMJLRQnRLeh.yJfyXOuR1UlcJ5lH' @ 20088 : 1 .. '!tables.results!lQCuUNbotof5wgxq.y0uOa4eU4A910Kmq' @ 0 : 0; will stop at (end)
