@@ -2,7 +2,7 @@
     "id": "dnd5e-spielerhandbuch-plus",
     "title": "DnD5e Spielerhandbuch Plus",
     "description": "Enthält das Kompendium des DnD 5. Edition Spielerhandbuchs, Erweiterungen und Homebrew-Inhalte.",
-    "version": "0.8.1",
+    "version": "0.8.3",
     "compatibility": {
         "minimum": "10",
         "verified": "12",
@@ -139,10 +139,10 @@
             "flags": {}
         },
         {
-            "name": "kreaturen",
-            "label": "Kreaturen (DDB)",
+            "name": "kreaturen-srd",
+            "label": "Kreaturen (SRD)",
             "system": "dnd5e",
-            "path": "packs/kreaturen",
+            "path": "packs/kreaturen-srd",
             "type": "Actor",
             "ownership": {
                 "PLAYER": "OBSERVER",
@@ -151,11 +151,47 @@
             "flags": {}
         },
         {
-            "name": "kreaturenfahigkeiten",
+            "name": "kreaturenfahigkeiten-srd",
+            "label": "Kreaturenfähigkeiten (SRD)",
+            "system": "dnd5e",
+            "path": "packs/kreaturenfahigkeiten-srd",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "kreaturen-ddb",
+            "label": "Kreaturen (DDB)",
+            "system": "dnd5e",
+            "path": "packs/kreaturen-ddb",
+            "type": "Actor",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "kreaturenfahigkeiten-ddb",
             "label": "Kreaturenfähigkeiten (DDB)",
             "system": "dnd5e",
-            "path": "packs/kreaturenfahigkeiten",
+            "path": "packs/kreaturenfahigkeiten-ddb",
             "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "reittiere",
+            "label": "Reittiere",
+            "system": "dnd5e",
+            "path": "packs/reittiere",
+            "type": "Actor",
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
@@ -167,6 +203,42 @@
             "label": "Makros",
             "system": "dnd5e",
             "path": "packs/makros",
+            "type": "Macro",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "makro-umgebungseffekte",
+            "label": "Umgebungseffekte",
+            "system": "dnd5e",
+            "path": "packs/makro-umgebungseffekte",
+            "type": "Macro",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "makro-waffen",
+            "label": "Waffen",
+            "system": "dnd5e",
+            "path": "packs/makro-waffen",
+            "type": "Macro",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "makro-zauber",
+            "label": "Zauber",
+            "system": "dnd5e",
+            "path": "packs/makro-zauber",
             "type": "Macro",
             "ownership": {
                 "PLAYER": "OBSERVER",
@@ -276,7 +348,8 @@
                     "color": "#0f3e0f",
                     "packs": [
                         "kreaturen",
-                        "kreaturenfahigkeiten"
+                        "kreaturenfahigkeiten",
+						"reittiere"
                     ],
                     "folders": []
                 },
@@ -296,7 +369,10 @@
                     "sorting": "m",
                     "color": "#0f3e0f",
                     "packs": [
-                        "makros"
+                        "makros",
+						"makro-umgebungseffekte",
+						"makro-waffen",
+						"makro-zauber"
                     ],
                     "folders": []
                 }
