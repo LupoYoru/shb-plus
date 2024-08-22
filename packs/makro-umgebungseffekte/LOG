@@ -1,8 +1,15 @@
-2024/08/13-18:54:09.710087 7f983f240b38 Recovering log #39
-2024/08/13-18:54:09.720989 7f983f240b38 Delete type=3 #38
-2024/08/13-18:54:09.721058 7f983f240b38 Delete type=0 #39
-2024/08/13-20:45:16.624157 7f9339656b38 Level-0 table #43: started
-2024/08/13-20:45:16.624185 7f9339656b38 Level-0 table #43: 0 bytes OK
-2024/08/13-20:45:16.636445 7f9339656b38 Delete type=0 #41
-2024/08/13-20:45:16.649161 7f9339656b38 Manual compaction at level-0 from '!macros!OmyfxEPUtlUGR3ep' @ 72057594037927935 : 1 .. '!macros!tHdnoddthVJTGMAx' @ 0 : 0; will stop at (end)
-2024/08/13-20:45:16.649271 7f9339656b38 Manual compaction at level-1 from '!macros!OmyfxEPUtlUGR3ep' @ 72057594037927935 : 1 .. '!macros!tHdnoddthVJTGMAx' @ 0 : 0; will stop at (end)
+2024/08/22-09:04:03.199785 7f30f0ab7b38 Recovering log #59
+2024/08/22-09:04:03.212292 7f30f0ab7b38 Delete type=0 #59
+2024/08/22-09:04:03.212370 7f30f0ab7b38 Delete type=3 #58
+2024/08/22-09:07:47.276203 7f2bebadfb38 Level-0 table #63: started
+2024/08/22-09:07:47.281297 7f2bebadfb38 Level-0 table #63: 8383 bytes OK
+2024/08/22-09:07:47.287208 7f2bebadfb38 Delete type=0 #61
+2024/08/22-09:07:47.313403 7f2bebadfb38 Manual compaction at level-0 from '!macros!BdgvE4cGdpkg31VZ' @ 72057594037927935 : 1 .. '!macros!nignBNePA3W5KaT2' @ 0 : 0; will stop at (end)
+2024/08/22-09:07:47.313683 7f2bebadfb38 Manual compaction at level-1 from '!macros!BdgvE4cGdpkg31VZ' @ 72057594037927935 : 1 .. '!macros!nignBNePA3W5KaT2' @ 0 : 0; will stop at '!macros!tHdnoddthVJTGMAx' @ 37 : 1
+2024/08/22-09:07:47.313705 7f2bebadfb38 Compacting 1@1 + 1@2 files
+2024/08/22-09:07:47.317905 7f2bebadfb38 Generated table #64@1: 6 keys, 3818 bytes
+2024/08/22-09:07:47.317935 7f2bebadfb38 Compacted 1@1 + 1@2 files => 3818 bytes
+2024/08/22-09:07:47.323455 7f2bebadfb38 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/08/22-09:07:47.323675 7f2bebadfb38 Delete type=2 #25
+2024/08/22-09:07:47.323832 7f2bebadfb38 Delete type=2 #63
+2024/08/22-09:07:47.346396 7f2bebadfb38 Manual compaction at level-1 from '!macros!tHdnoddthVJTGMAx' @ 37 : 1 .. '!macros!nignBNePA3W5KaT2' @ 0 : 0; will stop at (end)
