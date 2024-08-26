@@ -2,7 +2,7 @@
     "id": "dnd5e-spielerhandbuch-plus",
     "title": "DnD5e Spielerhandbuch Plus",
     "description": "Enthält das Kompendium des DnD 5. Edition Spielerhandbuchs, Erweiterungen und Homebrew-Inhalte.",
-    "version": "0.8.5",
+    "version": "0.8.6",
     "compatibility": {
         "minimum": "10",
         "verified": "12",
@@ -37,7 +37,7 @@
             "path": "packs/1-volker",
             "type": "Item",
             "ownership": {
-                "PLAYER": "OBSERVER",
+                "PLAYER": "LIMITED",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -49,7 +49,7 @@
             "path": "packs/2-klassen",
             "type": "Item",
             "ownership": {
-                "PLAYER": "OBSERVER",
+                "PLAYER": "LIMITED",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -61,7 +61,7 @@
             "path": "packs/3-unterklassen",
             "type": "Item",
             "ownership": {
-                "PLAYER": "OBSERVER",
+                "PLAYER": "LIMITED",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -73,7 +73,7 @@
             "path": "packs/4-klassenfahigkeiten",
             "type": "Item",
             "ownership": {
-                "PLAYER": "OBSERVER",
+                "PLAYER": "LIMITED",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -85,7 +85,7 @@
             "path": "packs/5-hintergrunde",
             "type": "Item",
             "ownership": {
-                "PLAYER": "OBSERVER",
+                "PLAYER": "LIMITED",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -97,7 +97,7 @@
             "path": "packs/6-talente",
             "type": "Item",
             "ownership": {
-                "PLAYER": "OBSERVER",
+                "PLAYER": "LIMITED",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -109,7 +109,7 @@
             "path": "packs/gegenstande",
             "type": "Item",
             "ownership": {
-                "PLAYER": "OBSERVER",
+                "PLAYER": "LIMITED",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -121,7 +121,7 @@
             "path": "packs/handelsguter",
             "type": "Item",
             "ownership": {
-                "PLAYER": "OBSERVER",
+                "PLAYER": "LIMITED",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -133,7 +133,7 @@
             "path": "packs/zauber",
             "type": "Item",
             "ownership": {
-                "PLAYER": "OBSERVER",
+                "PLAYER": "LIMITED",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -145,7 +145,7 @@
             "path": "packs/kreaturen-srd",
             "type": "Actor",
             "ownership": {
-                "PLAYER": "OBSERVER",
+                "PLAYER": "LIMITED",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -157,7 +157,7 @@
             "path": "packs/kreaturenfahigkeiten-srd",
             "type": "Item",
             "ownership": {
-                "PLAYER": "OBSERVER",
+                "PLAYER": "LIMITED",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -169,7 +169,7 @@
             "path": "packs/kreaturen-ddb",
             "type": "Actor",
             "ownership": {
-                "PLAYER": "OBSERVER",
+                "PLAYER": "LIMITED",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -181,19 +181,7 @@
             "path": "packs/kreaturenfahigkeiten-ddb",
             "type": "Item",
             "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "flags": {}
-        },
-        {
-            "name": "reittiere",
-            "label": "Reittiere",
-            "system": "dnd5e",
-            "path": "packs/reittiere",
-            "type": "Actor",
-            "ownership": {
-                "PLAYER": "OBSERVER",
+                "PLAYER": "LIMITED",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -205,43 +193,7 @@
             "path": "packs/makros",
             "type": "Macro",
             "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "flags": {}
-        },
-        {
-            "name": "makro-umgebungseffekte",
-            "label": "Umgebungseffekte",
-            "system": "dnd5e",
-            "path": "packs/makro-umgebungseffekte",
-            "type": "Macro",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "flags": {}
-        },
-        {
-            "name": "makro-waffen",
-            "label": "Waffen",
-            "system": "dnd5e",
-            "path": "packs/makro-waffen",
-            "type": "Macro",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "flags": {}
-        },
-        {
-            "name": "makro-zauber",
-            "label": "Zauber",
-            "system": "dnd5e",
-            "path": "packs/makro-zauber",
-            "type": "Macro",
-            "ownership": {
-                "PLAYER": "OBSERVER",
+                "PLAYER": "LIMITED",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -253,7 +205,7 @@
             "path": "packs/wurfeltabellen",
             "type": "RollTable",
             "ownership": {
-                "PLAYER": "OBSERVER",
+                "PLAYER": "LIMITED",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -265,7 +217,7 @@
             "path": "packs/wurfeltabellen-ddb",
             "type": "RollTable",
             "ownership": {
-                "PLAYER": "OBSERVER",
+                "PLAYER": "LIMITED",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -277,7 +229,7 @@
             "path": "packs/wurfeltabellen-srd",
             "type": "RollTable",
             "ownership": {
-                "PLAYER": "OBSERVER",
+                "PLAYER": "LIMITED",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -301,7 +253,7 @@
             "path": "packs/vorgefertigte-helden",
             "type": "Actor",
             "ownership": {
-                "PLAYER": "OBSERVER",
+                "PLAYER": "LIMITED",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -348,8 +300,7 @@
                     "color": "#0f3e0f",
                     "packs": [
                         "kreaturen",
-                        "kreaturenfahigkeiten",
-						"reittiere"
+                        "kreaturenfahigkeiten"
                     ],
                     "folders": []
                 },
@@ -369,10 +320,7 @@
                     "sorting": "m",
                     "color": "#0f3e0f",
                     "packs": [
-                        "makros",
-						"makro-umgebungseffekte",
-						"makro-waffen",
-						"makro-zauber"
+                        "makros"
                     ],
                     "folders": []
                 }
