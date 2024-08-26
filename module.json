@@ -2,7 +2,7 @@
     "id": "dnd5e-spielerhandbuch-plus",
     "title": "DnD5e Spielerhandbuch Plus",
     "description": "Enthält das Kompendium des DnD 5. Edition Spielerhandbuchs, Erweiterungen und Homebrew-Inhalte.",
-    "version": "0.8.6",
+    "version": "0.8.6-1",
     "compatibility": {
         "minimum": "10",
         "verified": "12",
@@ -37,7 +37,7 @@
             "path": "packs/1-volker",
             "type": "Item",
             "ownership": {
-                "PLAYER": "LIMITED",
+                "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -49,7 +49,7 @@
             "path": "packs/2-klassen",
             "type": "Item",
             "ownership": {
-                "PLAYER": "LIMITED",
+                "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -61,7 +61,7 @@
             "path": "packs/3-unterklassen",
             "type": "Item",
             "ownership": {
-                "PLAYER": "LIMITED",
+                "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -73,7 +73,7 @@
             "path": "packs/4-klassenfahigkeiten",
             "type": "Item",
             "ownership": {
-                "PLAYER": "LIMITED",
+                "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -85,7 +85,7 @@
             "path": "packs/5-hintergrunde",
             "type": "Item",
             "ownership": {
-                "PLAYER": "LIMITED",
+                "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -97,7 +97,7 @@
             "path": "packs/6-talente",
             "type": "Item",
             "ownership": {
-                "PLAYER": "LIMITED",
+                "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -253,7 +253,7 @@
             "path": "packs/vorgefertigte-helden",
             "type": "Actor",
             "ownership": {
-                "PLAYER": "LIMITED",
+                "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
@@ -265,8 +265,7 @@
             "sorting": "m",
             "color": "#2db92d",
             "packs": [
-                "spielerhandbuch",
-                "vorgefertigte-helden"
+                "spielerhandbuch"
             ],
             "folders": [
                 {
@@ -279,7 +278,8 @@
                         "3-unterklassen",
                         "4-klassenfahigkeiten",
                         "5-hintergrunde",
-                        "6-talente"
+                        "6-talente",
+						"vorgefertigte-helden"
                     ],
                     "folders": []
                 },
